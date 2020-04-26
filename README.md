@@ -20,3 +20,18 @@ Rabbirs, rats, we are the ratts
 rats rats, we are the rats
 rats, rats, we are the rats
 rats, ratas, we ar teh rast
+
+
+"I am big Rat"
+-Biggie Cheese
+
+
+This is a FUCK. You are a FUCK.  I am READY to DIE.  Please, please, please give me just a crumb of pussy.  I will KILL MYSELF.
+
+
+
+
+
+
+
+
