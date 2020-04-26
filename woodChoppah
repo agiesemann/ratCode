@@ -1,0 +1,31 @@
+local function chopTree()
+	
+	print("Ich choppe!	Ich choppe!")
+	
+	turtle.dig()
+	turtle.forward
+	turtle.digDown
+	turtle.select(2)
+	turtle.placeDown
+	
+	while true do
+		
+		local blockExists, blockName = turtle.inspect()
+		
+		if blockName == "minecraft:log" then
+			print("Log spotted")
+			turtle.digUp()
+			turtle.up()
+			zPos += 1
+			
+		else then 
+			print("Kein Log")
+			break 
+		end
+	end
+	
+	while zPos > 0 do
+		turtle.down()
+		zPos -= 1
+	end	
+end
