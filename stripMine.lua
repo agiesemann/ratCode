@@ -12,7 +12,7 @@ do
     turtle.forward()
   end
   turtle.digUp()
-  turtle.up
+  turtle.up()
   turtle.turnRight()
   turtle.turnRight()
 end
