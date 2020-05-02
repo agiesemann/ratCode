@@ -24,12 +24,14 @@ do
     turtle.turnRight()
     turtle.turnRight()
   end
-  --go down 10, right one, and turn
-  for i = 1,10,1
+  --go down 11, right one, and turn
+  for i = 1,11,1
   do
     turtle.down()
   end
-  turtle.turnLeft()
+  
+  --should eventually go back to chest to drop off and refuel here
+  turtle.turnRight()
   turtle.dig()
   turtle.forward()
   turtle.turnLeft()
