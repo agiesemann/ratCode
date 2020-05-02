@@ -1,9 +1,8 @@
 
-turtle.dig()
-turtle.forward()
-turtle.turnRight()
-
 turtle.refuel()
+
+print("Fuel Level is: ")
+print(turtle.getFuelLevel())
 
 for i = 1,10,1
 do
@@ -13,6 +12,7 @@ do
     turtle.forward()
   end
   turtle.digUp()
+  turtle.up
   turtle.turnRight()
   turtle.turnRight()
 end
