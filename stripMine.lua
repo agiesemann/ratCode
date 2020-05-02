@@ -54,25 +54,21 @@ do
   --get coal, put in slot 1
   turtle.refuel()
   
-  if row = 0
-  then
+  if row = 0 then
     turtle.turnRight()
     turtle.forward()
     turtle.turnRight()
-  else 
-    if row = 1
-    then
-      turtle.turnRight()
-      turtle.turnRight()
-    else
-      turtle.turnLeft()
-      for j = 1,row,1
-      do
-        turtle.dig()
-        turtle.forward()
-      end
-      turtle.turnLeft()
+  elseif row = 1 then
+    turtle.turnRight()
+    turtle.turnRight()
+  else
+    turtle.turnLeft()
+    for j = 1,row,1
+    do
+      turtle.dig()
+      turtle.forward()
     end
+    turtle.turnLeft()
   end
   
   row = row + 1
